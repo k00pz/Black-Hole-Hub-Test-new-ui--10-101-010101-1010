@@ -1,0 +1,24 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+ 
+local PhantomForcesWindow = Library:NewWindow("Black hole blade ball")
+ 
+local KillingCheats = PhantomForcesWindow:NewSection("Main")
+ 
+KillingCheats:CreateButton("Auto Parry v1", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Code4Zaaa/X7Project/main/Game/AutoParryOnly"))()
+print("HI")
+end)
+
+KillingCheats:CreateButton("Spam button", function()
+
+wait(0.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Hey!"; 
+Text = "this version is not done yet join our discord!";
+Duration = 18;
+})
+print("HI")
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("Made by Pyxpixel")
